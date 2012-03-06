@@ -862,7 +862,7 @@ extern void error(char *format, ...);
 
 
 
-#include "m68kops.c"
+#include "m68kops.cc"
 
 void M68KCPU::updateIRQ(uint mask)
 {

@@ -12,6 +12,8 @@
 	#include <io/zip/IoZip.hh>
 #endif
 
+#include <base/interface.h>
+
 static CallResult copyIoToPath(Io *io, const char *outPath)
 {
 	var_copy(outFile, IoSys::create(outPath));

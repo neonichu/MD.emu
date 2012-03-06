@@ -65,12 +65,11 @@
 		69CFDFD915060F8300F0C0AE /* io_ctrl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF7D15060F8200F0C0AE /* io_ctrl.cc */; };
 		69CFDFDA15060F8300F0C0AE /* loadrom.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF7F15060F8200F0C0AE /* loadrom.cc */; };
 		69CFDFDB15060F8300F0C0AE /* m68kcpu.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF8815060F8200F0C0AE /* m68kcpu.cc */; };
-		69CFDFDC15060F8300F0C0AE /* m68kops.c in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF8B15060F8200F0C0AE /* m68kops.c */; };
 		69CFDFDE15060F8300F0C0AE /* mem68k.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF8F15060F8200F0C0AE /* mem68k.cc */; };
 		69CFDFDF15060F8300F0C0AE /* membnk.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF9115060F8200F0C0AE /* membnk.cc */; };
 		69CFDFE015060F8300F0C0AE /* memz80.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF9315060F8200F0C0AE /* memz80.cc */; };
-		69CFDFE315060F8300F0C0AE /* md_ntsc.c in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF9815060F8200F0C0AE /* md_ntsc.c */; };
-		69CFDFE515060F8300F0C0AE /* sms_ntsc.c in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF9D15060F8200F0C0AE /* sms_ntsc.c */; };
+		69CFDFE315060F8300F0C0AE /* md_ntsc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF9815060F8200F0C0AE /* md_ntsc.cc */; };
+		69CFDFE515060F8300F0C0AE /* sms_ntsc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF9D15060F8200F0C0AE /* sms_ntsc.cc */; };
 		69CFDFE715060F8300F0C0AE /* blip.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDFA415060F8200F0C0AE /* blip.cc */; };
 		69CFDFE815060F8300F0C0AE /* eq.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDFA615060F8200F0C0AE /* eq.cc */; };
 		69CFDFE915060F8300F0C0AE /* Fir_Resampler.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDFA815060F8200F0C0AE /* Fir_Resampler.cc */; };
@@ -83,7 +82,21 @@
 		69CFDFF015060F8300F0C0AE /* vdp_ctrl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDFB615060F8200F0C0AE /* vdp_ctrl.cc */; };
 		69CFDFF115060F8300F0C0AE /* vdp_render.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDFB815060F8200F0C0AE /* vdp_render.cc */; };
 		69CFDFF215060F8300F0C0AE /* z80.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDFBC15060F8200F0C0AE /* z80.cc */; };
-		69CFDFF315060F8300F0C0AE /* Main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDFC015060F8200F0C0AE /* Main.cc */; };
+		69E5583F15061CCE001407C0 /* m68kops.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDF8B15060F8200F0C0AE /* m68kops.cc */; };
+		69E5584015061CDF001407C0 /* Main.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69CFDFC015060F8200F0C0AE /* Main.cc */; };
+		69E5584B15061D6D001407C0 /* AlertView.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69E5584215061D6D001407C0 /* AlertView.cc */; };
+		69E5584C15061D6D001407C0 /* ButtonConfigView.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69E5584315061D6D001407C0 /* ButtonConfigView.cc */; };
+		69E5584D15061D6D001407C0 /* CreditsView.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69E5584415061D6D001407C0 /* CreditsView.cc */; };
+		69E5584E15061D6D001407C0 /* EmuSystem.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69E5584515061D6D001407C0 /* EmuSystem.cc */; };
+		69E5584F15061D6D001407C0 /* FilePicker.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69E5584615061D6D001407C0 /* FilePicker.cc */; };
+		69E5585015061D6D001407C0 /* MsgPopup.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69E5584715061D6D001407C0 /* MsgPopup.cc */; };
+		69E5585115061D6D001407C0 /* Recent.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69E5584815061D6D001407C0 /* Recent.cc */; };
+		69E5585215061D6D001407C0 /* Screenshot.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69E5584915061D6D001407C0 /* Screenshot.cc */; };
+		69E5585315061D6D001407C0 /* VController.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69E5584A15061D6D001407C0 /* VController.cc */; };
+		69E5585515061EA6001407C0 /* libBTstack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E5585415061EA6001407C0 /* libBTstack.a */; };
+		69E5585D15061F32001407C0 /* btstack.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69E5585B15061F32001407C0 /* btstack.cc */; settings = {COMPILER_FLAGS = "-DIMAGINE_SRC"; }; };
+		69E5585E15061F32001407C0 /* build.mk in Resources */ = {isa = PBXBuildFile; fileRef = 69E5585C15061F32001407C0 /* build.mk */; };
+		69E5586115061F5B001407C0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E5586015061F5B001407C0 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -348,7 +361,7 @@
 		69CFDF8815060F8200F0C0AE /* m68kcpu.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = m68kcpu.cc; sourceTree = "<group>"; };
 		69CFDF8915060F8200F0C0AE /* m68kcpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m68kcpu.h; sourceTree = "<group>"; };
 		69CFDF8A15060F8200F0C0AE /* m68kCycleAccurate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m68kCycleAccurate.h; sourceTree = "<group>"; };
-		69CFDF8B15060F8200F0C0AE /* m68kops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = m68kops.c; sourceTree = "<group>"; };
+		69CFDF8B15060F8200F0C0AE /* m68kops.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = m68kops.cc; sourceTree = "<group>"; };
 		69CFDF8C15060F8200F0C0AE /* m68kops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m68kops.h; sourceTree = "<group>"; };
 		69CFDF8D15060F8200F0C0AE /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		69CFDF8E15060F8200F0C0AE /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
@@ -360,12 +373,12 @@
 		69CFDF9415060F8200F0C0AE /* memz80.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memz80.h; sourceTree = "<group>"; };
 		69CFDF9615060F8200F0C0AE /* changes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = changes.txt; sourceTree = "<group>"; };
 		69CFDF9715060F8200F0C0AE /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
-		69CFDF9815060F8200F0C0AE /* md_ntsc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md_ntsc.c; sourceTree = "<group>"; };
+		69CFDF9815060F8200F0C0AE /* md_ntsc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md_ntsc.cc; sourceTree = "<group>"; };
 		69CFDF9915060F8200F0C0AE /* md_ntsc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md_ntsc.h; sourceTree = "<group>"; };
 		69CFDF9A15060F8200F0C0AE /* md_ntsc_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md_ntsc_config.h; sourceTree = "<group>"; };
 		69CFDF9B15060F8200F0C0AE /* md_ntsc_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md_ntsc_impl.h; sourceTree = "<group>"; };
 		69CFDF9C15060F8200F0C0AE /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
-		69CFDF9D15060F8200F0C0AE /* sms_ntsc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sms_ntsc.c; sourceTree = "<group>"; };
+		69CFDF9D15060F8200F0C0AE /* sms_ntsc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sms_ntsc.cc; sourceTree = "<group>"; };
 		69CFDF9E15060F8200F0C0AE /* sms_ntsc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sms_ntsc.h; sourceTree = "<group>"; };
 		69CFDF9F15060F8200F0C0AE /* sms_ntsc.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sms_ntsc.txt; sourceTree = "<group>"; };
 		69CFDFA015060F8200F0C0AE /* sms_ntsc_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sms_ntsc_config.h; sourceTree = "<group>"; };
@@ -401,6 +414,19 @@
 		69CFDFC115060F8200F0C0AE /* MdMenuView.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MdMenuView.hh; sourceTree = "<group>"; };
 		69CFDFC215060F8200F0C0AE /* MdOptionView.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MdOptionView.hh; sourceTree = "<group>"; };
 		69CFDFC315060F8200F0C0AE /* osd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = osd.h; path = MD.emu/src/osd.h; sourceTree = SOURCE_ROOT; };
+		69E5584215061D6D001407C0 /* AlertView.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AlertView.cc; path = EmuFramework/src/AlertView.cc; sourceTree = SOURCE_ROOT; };
+		69E5584315061D6D001407C0 /* ButtonConfigView.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ButtonConfigView.cc; path = EmuFramework/src/ButtonConfigView.cc; sourceTree = SOURCE_ROOT; };
+		69E5584415061D6D001407C0 /* CreditsView.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CreditsView.cc; path = EmuFramework/src/CreditsView.cc; sourceTree = SOURCE_ROOT; };
+		69E5584515061D6D001407C0 /* EmuSystem.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EmuSystem.cc; path = EmuFramework/src/EmuSystem.cc; sourceTree = SOURCE_ROOT; };
+		69E5584615061D6D001407C0 /* FilePicker.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FilePicker.cc; path = EmuFramework/src/FilePicker.cc; sourceTree = SOURCE_ROOT; };
+		69E5584715061D6D001407C0 /* MsgPopup.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MsgPopup.cc; path = EmuFramework/src/MsgPopup.cc; sourceTree = SOURCE_ROOT; };
+		69E5584815061D6D001407C0 /* Recent.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Recent.cc; path = EmuFramework/src/Recent.cc; sourceTree = SOURCE_ROOT; };
+		69E5584915061D6D001407C0 /* Screenshot.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Screenshot.cc; path = EmuFramework/src/Screenshot.cc; sourceTree = SOURCE_ROOT; };
+		69E5584A15061D6D001407C0 /* VController.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VController.cc; path = EmuFramework/src/VController.cc; sourceTree = SOURCE_ROOT; };
+		69E5585415061EA6001407C0 /* libBTstack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBTstack.a; path = "imagine/bundle/darwin-iOS/armv7/lib/libBTstack.a"; sourceTree = "<group>"; };
+		69E5585B15061F32001407C0 /* btstack.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = btstack.cc; sourceTree = "<group>"; };
+		69E5585C15061F32001407C0 /* build.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.mk; sourceTree = "<group>"; };
+		69E5586015061F5B001407C0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -408,6 +434,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E5586115061F5B001407C0 /* libz.dylib in Frameworks */,
+				69E5585515061EA6001407C0 /* libBTstack.a in Frameworks */,
 				69CFDF4915060C5C00F0C0AE /* ioapi.o in Frameworks */,
 				69CFDF4A15060C5C00F0C0AE /* libfreetype.a in Frameworks */,
 				69CFDF4B15060C5C00F0C0AE /* libpng15.a in Frameworks */,
@@ -430,6 +458,8 @@
 			isa = PBXGroup;
 			children = (
 				69CFDD621506039500F0C0AE /* MD */,
+				69E5584115061D51001407C0 /* EmuFramework */,
+				69CFDD73150603F600F0C0AE /* Imagine */,
 				69CFDD5B1506039500F0C0AE /* Frameworks */,
 				69CFDD591506039500F0C0AE /* Products */,
 			);
@@ -447,8 +477,10 @@
 			isa = PBXGroup;
 			children = (
 				69CFDF4415060C5C00F0C0AE /* ioapi.o */,
+				69E5585415061EA6001407C0 /* libBTstack.a */,
 				69CFDF4515060C5C00F0C0AE /* libfreetype.a */,
 				69CFDF4615060C5C00F0C0AE /* libpng15.a */,
+				69E5586015061F5B001407C0 /* libz.dylib */,
 				69CFDF4715060C5C00F0C0AE /* unzip.o */,
 				69CFDF4815060C5C00F0C0AE /* zip.o */,
 				69CFDF33150608C800F0C0AE /* AudioToolbox.framework */,
@@ -470,7 +502,6 @@
 				69CFDF5215060F8200F0C0AE /* genplus-gx */,
 				69CFDFBE15060F8200F0C0AE /* main */,
 				69CFDFC315060F8200F0C0AE /* osd.h */,
-				69CFDD73150603F600F0C0AE /* Imagine */,
 				69CFDD631506039500F0C0AE /* Supporting Files */,
 			);
 			path = MD;
@@ -509,6 +540,7 @@
 				69CFDE82150604AC00F0C0AE /* util */,
 			);
 			name = Imagine;
+			path = MD;
 			sourceTree = "<group>";
 		};
 		69CFDD79150604AC00F0C0AE /* audio */ = {
@@ -571,6 +603,7 @@
 		69CFDDCB150604AC00F0C0AE /* bluetooth */ = {
 			isa = PBXGroup;
 			children = (
+				69E5585A15061F32001407C0 /* btstack */,
 				69CFDDCC150604AC00F0C0AE /* Bluetooth.hh */,
 				69CFDDD3150604AC00F0C0AE /* Device.hh */,
 				69CFDDD4150604AC00F0C0AE /* system.mk */,
@@ -1264,7 +1297,7 @@
 				69CFDF8815060F8200F0C0AE /* m68kcpu.cc */,
 				69CFDF8915060F8200F0C0AE /* m68kcpu.h */,
 				69CFDF8A15060F8200F0C0AE /* m68kCycleAccurate.h */,
-				69CFDF8B15060F8200F0C0AE /* m68kops.c */,
+				69CFDF8B15060F8200F0C0AE /* m68kops.cc */,
 				69CFDF8C15060F8200F0C0AE /* m68kops.h */,
 				69CFDF8D15060F8200F0C0AE /* readme.txt */,
 			);
@@ -1276,12 +1309,12 @@
 			children = (
 				69CFDF9615060F8200F0C0AE /* changes.txt */,
 				69CFDF9715060F8200F0C0AE /* license.txt */,
-				69CFDF9815060F8200F0C0AE /* md_ntsc.c */,
+				69CFDF9815060F8200F0C0AE /* md_ntsc.cc */,
 				69CFDF9915060F8200F0C0AE /* md_ntsc.h */,
 				69CFDF9A15060F8200F0C0AE /* md_ntsc_config.h */,
 				69CFDF9B15060F8200F0C0AE /* md_ntsc_impl.h */,
 				69CFDF9C15060F8200F0C0AE /* readme.txt */,
-				69CFDF9D15060F8200F0C0AE /* sms_ntsc.c */,
+				69CFDF9D15060F8200F0C0AE /* sms_ntsc.cc */,
 				69CFDF9E15060F8200F0C0AE /* sms_ntsc.h */,
 				69CFDF9F15060F8200F0C0AE /* sms_ntsc.txt */,
 				69CFDFA015060F8200F0C0AE /* sms_ntsc_config.h */,
@@ -1332,6 +1365,32 @@
 			name = main;
 			path = MD.emu/src/main;
 			sourceTree = SOURCE_ROOT;
+		};
+		69E5584115061D51001407C0 /* EmuFramework */ = {
+			isa = PBXGroup;
+			children = (
+				69E5584215061D6D001407C0 /* AlertView.cc */,
+				69E5584315061D6D001407C0 /* ButtonConfigView.cc */,
+				69E5584415061D6D001407C0 /* CreditsView.cc */,
+				69E5584515061D6D001407C0 /* EmuSystem.cc */,
+				69E5584615061D6D001407C0 /* FilePicker.cc */,
+				69E5584715061D6D001407C0 /* MsgPopup.cc */,
+				69E5584815061D6D001407C0 /* Recent.cc */,
+				69E5584915061D6D001407C0 /* Screenshot.cc */,
+				69E5584A15061D6D001407C0 /* VController.cc */,
+			);
+			name = EmuFramework;
+			path = MD;
+			sourceTree = "<group>";
+		};
+		69E5585A15061F32001407C0 /* btstack */ = {
+			isa = PBXGroup;
+			children = (
+				69E5585B15061F32001407C0 /* btstack.cc */,
+				69E5585C15061F32001407C0 /* build.mk */,
+			);
+			path = btstack;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -1384,6 +1443,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E5585E15061F32001407C0 /* build.mk in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1394,6 +1454,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E5584015061CDF001407C0 /* Main.cc in Sources */,
+				69E5583F15061CCE001407C0 /* m68kops.cc in Sources */,
 				69CFDF3C15060B3A00F0C0AE /* reader.cc in Sources */,
 				69CFDF3D15060B3A00F0C0AE /* reader.cc in Sources */,
 				69CFDF3E15060B3A00F0C0AE /* IoZip.cc in Sources */,
@@ -1440,12 +1502,11 @@
 				69CFDFD915060F8300F0C0AE /* io_ctrl.cc in Sources */,
 				69CFDFDA15060F8300F0C0AE /* loadrom.cc in Sources */,
 				69CFDFDB15060F8300F0C0AE /* m68kcpu.cc in Sources */,
-				69CFDFDC15060F8300F0C0AE /* m68kops.c in Sources */,
 				69CFDFDE15060F8300F0C0AE /* mem68k.cc in Sources */,
 				69CFDFDF15060F8300F0C0AE /* membnk.cc in Sources */,
 				69CFDFE015060F8300F0C0AE /* memz80.cc in Sources */,
-				69CFDFE315060F8300F0C0AE /* md_ntsc.c in Sources */,
-				69CFDFE515060F8300F0C0AE /* sms_ntsc.c in Sources */,
+				69CFDFE315060F8300F0C0AE /* md_ntsc.cc in Sources */,
+				69CFDFE515060F8300F0C0AE /* sms_ntsc.cc in Sources */,
 				69CFDFE715060F8300F0C0AE /* blip.cc in Sources */,
 				69CFDFE815060F8300F0C0AE /* eq.cc in Sources */,
 				69CFDFE915060F8300F0C0AE /* Fir_Resampler.cc in Sources */,
@@ -1458,7 +1519,16 @@
 				69CFDFF015060F8300F0C0AE /* vdp_ctrl.cc in Sources */,
 				69CFDFF115060F8300F0C0AE /* vdp_render.cc in Sources */,
 				69CFDFF215060F8300F0C0AE /* z80.cc in Sources */,
-				69CFDFF315060F8300F0C0AE /* Main.cc in Sources */,
+				69E5584B15061D6D001407C0 /* AlertView.cc in Sources */,
+				69E5584C15061D6D001407C0 /* ButtonConfigView.cc in Sources */,
+				69E5584D15061D6D001407C0 /* CreditsView.cc in Sources */,
+				69E5584E15061D6D001407C0 /* EmuSystem.cc in Sources */,
+				69E5584F15061D6D001407C0 /* FilePicker.cc in Sources */,
+				69E5585015061D6D001407C0 /* MsgPopup.cc in Sources */,
+				69E5585115061D6D001407C0 /* Recent.cc in Sources */,
+				69E5585215061D6D001407C0 /* Screenshot.cc in Sources */,
+				69E5585315061D6D001407C0 /* VController.cc in Sources */,
+				69E5585D15061F32001407C0 /* btstack.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1486,10 +1556,13 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
+					"MD/**",
+					"EmuFramework/**",
 					"MD.emu/**",
 					"imagine/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DSysDDec=float";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1509,11 +1582,16 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
+					"MD/**",
+					"EmuFramework/**",
 					"MD.emu/**",
 					"imagine/**",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_CFLAGS = (
+					"-DSysDDec=float",
+					"-DNS_BLOCK_ASSERTIONS=1",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
