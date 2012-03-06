@@ -97,6 +97,11 @@
 		69E5585D15061F32001407C0 /* btstack.cc in Sources */ = {isa = PBXBuildFile; fileRef = 69E5585B15061F32001407C0 /* btstack.cc */; settings = {COMPILER_FLAGS = "-DIMAGINE_SRC"; }; };
 		69E5585E15061F32001407C0 /* build.mk in Resources */ = {isa = PBXBuildFile; fileRef = 69E5585C15061F32001407C0 /* build.mk */; };
 		69E5586115061F5B001407C0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E5586015061F5B001407C0 /* libz.dylib */; };
+		69E558A4150645E5001407C0 /* padButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E558A2150645E5001407C0 /* padButton.png */; };
+		69E558A5150645E5001407C0 /* xButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E558A3150645E5001407C0 /* xButton.png */; };
+		69E558A715064624001407C0 /* Vera.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69E558A615064624001407C0 /* Vera.ttf */; };
+		69E558AA1506468D001407C0 /* overlays64.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E558A81506468D001407C0 /* overlays64.png */; };
+		69E558AB1506468D001407C0 /* overlays128.png in Resources */ = {isa = PBXBuildFile; fileRef = 69E558A91506468D001407C0 /* overlays128.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -118,7 +123,6 @@
 		69CFDDBA150604AC00F0C0AE /* build.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.mk; sourceTree = "<group>"; };
 		69CFDDBB150604AC00F0C0AE /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
 		69CFDDBC150604AC00F0C0AE /* ICadeHelper.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ICadeHelper.hh; sourceTree = "<group>"; };
-		69CFDDBD150604AC00F0C0AE /* input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input.h; sourceTree = "<group>"; };
 		69CFDDBE150604AC00F0C0AE /* inputDefs.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = inputDefs.hh; sourceTree = "<group>"; };
 		69CFDDBF150604AC00F0C0AE /* iOS.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = iOS.hh; sourceTree = "<group>"; };
 		69CFDDC0150604AC00F0C0AE /* iphone.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iphone.mm; sourceTree = "<group>"; };
@@ -427,6 +431,11 @@
 		69E5585B15061F32001407C0 /* btstack.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = btstack.cc; sourceTree = "<group>"; };
 		69E5585C15061F32001407C0 /* build.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = build.mk; sourceTree = "<group>"; };
 		69E5586015061F5B001407C0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		69E558A2150645E5001407C0 /* padButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = padButton.png; path = EmuFramework/res/ui/padButton.png; sourceTree = "<group>"; };
+		69E558A3150645E5001407C0 /* xButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xButton.png; path = EmuFramework/res/ui/xButton.png; sourceTree = "<group>"; };
+		69E558A615064624001407C0 /* Vera.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vera.ttf; sourceTree = "<group>"; };
+		69E558A81506468D001407C0 /* overlays64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlays64.png; path = "EmuFramework/res/overlays/NES-style/overlays64.png"; sourceTree = "<group>"; };
+		69E558A91506468D001407C0 /* overlays128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlays128.png; path = "EmuFramework/res/overlays/NES-style/overlays128.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -457,11 +466,12 @@
 		69CFDD4D1506039500F0C0AE = {
 			isa = PBXGroup;
 			children = (
-				69CFDD621506039500F0C0AE /* MD */,
 				69E5584115061D51001407C0 /* EmuFramework */,
-				69CFDD73150603F600F0C0AE /* Imagine */,
 				69CFDD5B1506039500F0C0AE /* Frameworks */,
+				69CFDD73150603F600F0C0AE /* Imagine */,
+				69CFDD621506039500F0C0AE /* MD */,
 				69CFDD591506039500F0C0AE /* Products */,
+				69E558A1150645C7001407C0 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -591,7 +601,6 @@
 				69CFDDBA150604AC00F0C0AE /* build.mk */,
 				69CFDDBB150604AC00F0C0AE /* EAGLView.h */,
 				69CFDDBC150604AC00F0C0AE /* ICadeHelper.hh */,
-				69CFDDBD150604AC00F0C0AE /* input.h */,
 				69CFDDBE150604AC00F0C0AE /* inputDefs.hh */,
 				69CFDDBF150604AC00F0C0AE /* iOS.hh */,
 				69CFDDC0150604AC00F0C0AE /* iphone.mm */,
@@ -1392,6 +1401,18 @@
 			path = btstack;
 			sourceTree = "<group>";
 		};
+		69E558A1150645C7001407C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69E558A81506468D001407C0 /* overlays64.png */,
+				69E558A91506468D001407C0 /* overlays128.png */,
+				69E558A2150645E5001407C0 /* padButton.png */,
+				69E558A615064624001407C0 /* Vera.ttf */,
+				69E558A3150645E5001407C0 /* xButton.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1444,6 +1465,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				69E5585E15061F32001407C0 /* build.mk in Resources */,
+				69E558A4150645E5001407C0 /* padButton.png in Resources */,
+				69E558A5150645E5001407C0 /* xButton.png in Resources */,
+				69E558A715064624001407C0 /* Vera.ttf in Resources */,
+				69E558AA1506468D001407C0 /* overlays64.png in Resources */,
+				69E558AB1506468D001407C0 /* overlays128.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1561,7 +1587,7 @@
 					"MD.emu/**",
 					"imagine/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DSysDDec=float";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1587,7 +1613,7 @@
 					"MD.emu/**",
 					"imagine/**",
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = (
 					"-DSysDDec=float",
 					"-DNS_BLOCK_ASSERTIONS=1",
