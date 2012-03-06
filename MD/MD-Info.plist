@@ -45,5 +45,7 @@
 	</array>
 	<key>UIStatusBarHidden</key>
 	<true/>
+	<key>UIFileSharingEnabled</key>
+	<true/>
 </dict>
 </plist>
