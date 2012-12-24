@@ -20,11 +20,7 @@
 #include <unistd.h>
 #include <errno.h>
 
-#if defined(__APPLE__)
-	#define SELECTOR_CONST
-#else
-	#define SELECTOR_CONST const
-#endif
+#define SELECTOR_CONST const
 
 #if defined(CONFIG_BASE_ANDROID)
 	#define CMP_CAST (int (*)(const dirent**, const dirent**))
@@ -170,7 +166,7 @@ CallResult FsPosix::openDir (const char* path, uint flags, FsDirFilterFunc f, Fs
 
 	numEntries_ = scandir(".", &entry,
 		currentFilter ? customSelector : noDotRefs,
-		(flags & Fs::OPEN_UNSORT) ? 0 : (currentSorter ? CMP_CAST customSorter : CMP_CAST alphasort));
+		(flags & Fs::OPEN_UNSORT) ? 0 : alphasort);
 
 	if(!string_equal(path, ".")) // switch back to original working dir
 	{
